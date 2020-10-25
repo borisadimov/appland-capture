@@ -1,0 +1,19 @@
+{
+  "name": "appland-capture",
+  "version": "1.0.0",
+  "description": "Thing to save digrams as pics",
+  "main": "snapshot.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Boris Adimov",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "express": "^4.17.1",
+    "level": "^6.0.1",
+    "pug": "^3.0.0",
+    "puppeteer": "^5.4.0",
+    "request-myself": "0.0.2-f"
+  }
+}

@@ -4,7 +4,7 @@ const port = process.env.PORT || 3131
 const screenshot = require('./screenshot')
 const level = require('level')
 const axios = require('axios').default;
-const SERVER_URL = process.env.SERVER_URL ? `${process.env.SERVER_URL}` : "localhost:3131";
+const SERVER_URL = process.env.SERVER_URL || "localhost:3131";
 
 
 const protocol = process.env.SERVER_URL ? 'https' : 'http'
